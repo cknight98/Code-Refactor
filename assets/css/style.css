@@ -7,6 +7,9 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* moved selector rule sets above classes for organization */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -85,6 +88,8 @@ p {
     background-color: #2589bd;
 }
 
+/* consolidated brand-cost and brand-lead into benefit-detail class */
+
 .benefit-detail {
     margin-bottom: 32px;
     color: #ffffff;
@@ -99,6 +104,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* created services main class to get rid of unnecessary repetitve classes */
 
 .services-main {
     margin-bottom: 20px;
